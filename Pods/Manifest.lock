@@ -1,0 +1,97 @@
+PODS:
+  - Apollo (0.8.0):
+    - Apollo/Core (= 0.8.0)
+  - Apollo/Core (0.8.0)
+  - Apollo/SQLite (0.8.0):
+    - Apollo/Core
+    - SQLite.swift (~> 0.11.4)
+  - Differentiator (3.0.2)
+  - Flix (1.2.1):
+    - RxCocoa (~> 4.1)
+    - RxDataSources (~> 3.0)
+    - RxSwift (~> 4.1)
+  - RxCocoa (4.1.2):
+    - RxCocoaRuntime (~> 4.1)
+    - RxSwift (~> 4.1)
+  - RxCocoaRuntime (4.1.2)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+    - SQLiteObjc (~> 0.11.4)
+  - SQLite.swift/standard (0.11.4):
+    - SQLiteObjc (~> 0.11.4)
+  - SQLiteObjc (0.11.4)
+
+DEPENDENCIES:
+  - Apollo (from `https://github.com/apollographql/apollo-ios.git`)
+  - Apollo/SQLite (from `https://github.com/apollographql/apollo-ios.git`)
+  - Differentiator (from `https://github.com/RxSwiftCommunity/RxDataSources.git`)
+  - Flix (from `https://github.com/DianQK/Flix.git`)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`)
+  - RxCocoaRuntime (from `https://raw.githubusercontent.com/DianQK/UseStaticFramework/master/RxCocoaRuntime.podspec`)
+  - RxDataSources (from `https://github.com/RxSwiftCommunity/RxDataSources.git`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`)
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`)
+  - SQLiteObjc (from `https://raw.githubusercontent.com/DianQK/UseStaticFramework/master/SQLiteObjc.podspec`)
+
+EXTERNAL SOURCES:
+  Apollo:
+    :git: https://github.com/apollographql/apollo-ios.git
+  Differentiator:
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  Flix:
+    :git: https://github.com/DianQK/Flix.git
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxCocoaRuntime:
+    :podspec: https://raw.githubusercontent.com/DianQK/UseStaticFramework/master/RxCocoaRuntime.podspec
+  RxDataSources:
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SQLite.swift:
+    :git: https://github.com/stephencelis/SQLite.swift.git
+  SQLiteObjc:
+    :podspec: https://raw.githubusercontent.com/DianQK/UseStaticFramework/master/SQLiteObjc.podspec
+
+CHECKOUT OPTIONS:
+  Apollo:
+    :commit: 026bac3e403ce6dabc4b3ecb187f20a888fa1cb6
+    :git: https://github.com/apollographql/apollo-ios.git
+  Differentiator:
+    :commit: ddfc9a1fdba650984f3a72b5b318e55fcfeccbae
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  Flix:
+    :commit: 1cb31d98298892d8253315b55a057fff37d593e7
+    :git: https://github.com/DianQK/Flix.git
+  RxCocoa:
+    :commit: 21e0fb8a1e071b02b04a4acc6f0125e5ae64511d
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxDataSources:
+    :commit: ddfc9a1fdba650984f3a72b5b318e55fcfeccbae
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :commit: 21e0fb8a1e071b02b04a4acc6f0125e5ae64511d
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SQLite.swift:
+    :commit: c052d4153b617d6f16d26ac5b924afe0a6dd5874
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+SPEC CHECKSUMS:
+  Apollo: 4b78acc5d7bf661f633e67cdd2e70e1ad5335e74
+  Differentiator: d8548bb7b20720f202a00837593b80e5c25994b7
+  Flix: 536ef645ac03c6be67e01106be5c2bab2d8cdbcc
+  RxCocoa: bf0074ed34e64ff4da4b239eb34aeb4153c1f3f0
+  RxCocoaRuntime: b578f130010fd48523b8461d9283eeeec2045e0a
+  RxDataSources: 5f81157063eeaf05e9812223f8d0eda2c4fcb417
+  RxSwift: efccff8d1d0e62d78faed10992dc749a93c63308
+  SQLite.swift: 84b75a45637b798ce53c60d1db3938c352e0918c
+  SQLiteObjc: 6a6ec9f05aaf3ab22909b36ed5b70479656d1011
+
+PODFILE CHECKSUM: 09fb8ef9eea70eb4055a0bfc236c074f255e8951
+
+COCOAPODS: 1.4.0
